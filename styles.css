@@ -1,0 +1,32 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(15, 15, 15);
+}
+
+h1 {
+  background: linear-gradient(
+    to right,
+    rgb(250, 78, 10),
+    rgb(247, 12, 204),
+    rgb(0, 106, 255),
+    rgb(48, 248, 255)
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  cursor: pointer; 
+  transition: 0.4s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.05);
+}
